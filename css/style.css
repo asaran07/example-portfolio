@@ -1,0 +1,25 @@
+html, body {
+    height: 100%;   
+    margin: 0;     
+    padding: 0;    
+    background: linear-gradient(to bottom, #ffffff 0%, #e6e6e6 100%);
+    font-family: Arial, sans-serif;
+    padding-top: 50px;
+}
+
+
+
+.header-bar {
+    font-family: 'Raleway', sans-serif;
+    background-color: black; 
+    color: white; 
+    text-align: center; 
+    padding: 40px 0; 
+    width: 100%; 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    z-index: 1000;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
