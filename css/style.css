@@ -8,13 +8,13 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-    min-height: 600px;
+    min-height: 700px;
     margin-top: 0px;
 }
 
 .main-titlebar {
     width: 70%;
-    background-color: E3781F;
+    background-color: #E3781F; 
     padding: 12px 20px;
     margin: 0 auto;
     max-width: 1200px;
@@ -22,29 +22,11 @@ body {
 }
 
 h1 {
-    color: E3781F;
+    color: #E3781F; 
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 38px;
 }
-
-/* .horizontal-menu {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.horizontal-menu li {
-    display: inline;
-    margin-right: 20px;
-}
-
-.horizontal-menu li a {
-    text-decoration: none;
-    color: grey;
-    font-weight: lighter;
-} */
 
 .horizontal-menu {
     display: flex;
@@ -62,4 +44,57 @@ h1 {
 
 .horizontal-menu li a {
     text-decoration: none;
+    color: inherit; 
+    transition: color 0.3s ease-in-out;
 }
+
+.horizontal-menu li a:hover {
+    color: #000;
+    opacity: 1;
+}
+
+.horizontal-menu li a.active {
+    color: #E3781F;
+    font-weight: bold;
+    background-color: #f0f0f0;
+}
+
+.content-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+    padding-left: 120px;
+    padding-right: 40px;
+}
+
+.content-image {
+    width: 40%;
+    height: auto;
+    /* object-fit: cover; */
+    margin-right: 5px;
+    margin-left: 40px;
+}
+
+.text-content {
+    width: 35%;
+    padding-right: 140px;
+    padding-bottom: 125px;
+}
+
+.text-content h2 {
+    color: #E3781F;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 32px;
+}
+
+.text-content p {
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    line-height: 1.6;
+}
+
+
+
+
