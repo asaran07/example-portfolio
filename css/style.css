@@ -88,3 +88,35 @@ h1 {
     font-size: large;
     line-height: 1.6;
 }
+
+.square-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    background-color: #E3781F;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #E3781F;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.square:hover {
+    transform: scale(0.9);
+}
+
+.square:active {
+    transform: scale(0.9);
+}
+
